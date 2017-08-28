@@ -1,0 +1,136 @@
+/*
+	© 2016 NetSuite Inc.
+	User may not copy, modify, distribute, or re-bundle or otherwise make available this code;
+	provided, however, if you are an authorized user with a NetSuite account or log-in, you
+	may use this code subject to the terms that govern your access and use.
+*/
+
+//CUSTOM Colors
+$mcc-color-light-blue: #4363ae;			//	rgba(67, 99, 174, 1)
+$mcc-color-dark-blue: #434fa1;			//	rgba(67, 79, 161, 1)
+$mcc-color-dark-grey: #5c5c5c;			//	rgba(92, 92, 92, 1)
+$mcc-color-light-grey: #dbdbdb;			//	rgba(219, 219, 219, 1)
+$mcc-color-black-bg-opaque: #000000;	//BLACK - #000000
+$mcc-color-font-drk-grey: #423c3f;		//	rgba(66, 60, 63, 1)
+$mcc-color-font-white: #ffffff;			//	rgba(255, 255, 255, 1)
+$mcc-color-font-link: #423c3f;			//	rgba(66, 60, 63, 1)
+$mcc-color-font-link-hover: lighten($mcc-color-font-link, 20);
+$mcc-color-bg-light-grey: #f2f2f2;		//	rgba(242, 242, 242, 1)
+$mcc-color-bg-border-light-grey: darken($mcc-color-bg-light-grey, 10);
+$mcc-color-bg-black: #272727;			//	rgba(39, 39, 39, 1)
+$mcc-color-dropdown-menu:rgba(8,12,14,0.9);	    //  #080c0e
+$mcc-color-dropdown-font-color: rgba(255, 255, 255, 1);
+$mcc-color-dropdown-font-hover: rgba(255, 255, 255, .7);
+/*----------CUSTOM BUTTONS--------------*/
+$mcc-button-primary: rgba(66, 60, 63, 1);
+$mcc-button-primary-hover: darken($mcc-button-primary, 2);
+$mcc-button-primary-border: lighten($mcc-button-primary, 3);
+$mcc-button-primary-focus: lighten($mcc-button-primary, 2);
+$mcc-color-button-hover: darken(rgba(67, 99, 174, 1), 20);
+/*----------END CUSTOM BUTTONS----------*/
+$mcc-search-icon: rgba(67, 99, 174, 1);
+$mcc-search-submit-btn: rgba(67, 99, 174, 1);
+$mcc-search-submit-btn-hover: darken(rgba(67, 99, 174, 1), 20);
+$mcc-breadcrumb-font-hover: darken(rgba(66, 60, 63, 1), 35);
+/*----------CUSTOM FOOTER COLORS--------------*/
+$mcc-footer-bg-color: #dfdfdf;			//	rgba(223, 223, 223, 1)
+$mcc-newsletter-bg-color: #363636;		//	rgba(54, 54, 54, 1)
+$mcc-footer-border-color: #5C5C5C;		//	rgba(92, 92, 92, 1)
+$mcc-footer-bg-color-white: #ffffff;	//	rgba(255, 255, 255, 1)
+$mcc-newsletter-btn-bg-color: #ADADAD;  //  rgba(173, 173, 173, 1)
+$mcc-footer-black-font: #000000;		//	rgba(0, 0, 0, 1)
+$mcc-footer-social-font: #515151;		//	rgba(81, 81, 81, 1)
+$mcc-footer-social-border: #b7b9bc;		//	rgba(183, 185, 188, 1)
+$mcc-footer-social-circle-font: #242e3e;//	rgba(36, 46, 62, 1)
+$mcc-footer-btm-border-top: #d4d4d4;	//	rgba(212, 212, 212, 1)	
+/*----------END CUSTOM FOOTER COLORS-----------*/
+//END CUSTOM Colors
+
+$sc-color-theme: #5b7f8c;
+$sc-color-theme-light:#9cb6bf;
+$sc-color-theme-background:#272727;
+$sc-color-theme-background-light: lighten($mcc-color-light-grey, 3.5);
+$sc-color-theme-background-lightest: lighten($sc-color-theme-background, 6);
+$sc-color-theme-border: desaturate(darken($sc-color-theme-background, 8), 3);
+$sc-color-background-list:#f1f8fa;
+
+$sc-color-primary: $mcc-color-light-blue;
+$sc-color-secondary: #15607B;
+$sc-color-tertiary: #ffffff;
+
+$sc-color-success: #4a7f35;
+$sc-color-success-background: #eef7e4;
+$sc-color-warning: #8e7728;
+$sc-color-warning-background: #f9f5cd;
+$sc-color-error: #C33C48;
+$sc-color-error-background: #FFE9F1;
+$sc-color-info: $sc-color-theme-light;
+$sc-color-info-background: $sc-color-theme-light;
+
+$sc-color-primary-hover: saturate(lighten($sc-color-primary, 4), 10);
+$sc-color-primary-active: desaturate(darken($sc-color-primary, 5), 10);
+$sc-color-primary-disable: lighten($sc-color-primary, 18);
+
+$sc-color-secondary-hover: saturate(lighten($sc-color-secondary, 4), 4);
+$sc-color-secondary-active: darken($sc-color-secondary, 6);
+
+$sc-color-tertiary-hover: $sc-color-secondary;
+$sc-color-tertiary-active: darken($sc-color-secondary, 6);
+
+$sc-color-link: #ffffff;
+$sc-color-link-hover: darken($sc-color-link, 20);
+
+$sc-color-dark-copy: #1f2223;
+$sc-color-copy: #404040;
+$sc-color-light-copy: lighten($sc-color-copy, 22);
+
+//TODO: FIND OUT
+$sc-color-range-off:#dcdcdc;
+$sc-color-range-on: $sc-color-primary;
+
+//Stars
+$sc-color-star-filled:#5b7f8c;
+$sc-color-star-empty:#d1ba23;
+$sc-color-star-error:#C33C48;
+$sc-color-star-empty-disable:#d1ba23;
+$sc-color-input-state-error-shadow:#b65d65;
+
+// icons
+$sc-color-icon: #ffffff;
+
+//Status
+$sc-color-status: #fe6b38;
+
+$sc-pusher-bg: #ffffff;
+
+//Datepicker
+$sc-days-disabled: #c5dbe7;
+
+//Color picker
+$sc-picker-white-border: #c7dde9;
+
+//Home Slide Theme
+$sc-color-slide-background:#e9f1f5;
+
+//Bx Slider Colors
+$sc-color-bx-pager-background: #7498a7;
+
+//Placeholder Colors
+$sc-color-placeholder: #aab0b3;
+//Quantity value
+$sc-color-quantity-value:#ebf1f4;
+
+//Miscellaneous variables
+$sc-color-overlay:#000;
+$sc-color-gallery-icon-control: lighten($sc-color-secondary, 30);
+$sc-color-span-spinner-add-or-sub: #9db4c0;
+$sc-color-list-header-view-accordion-body-header: #f1f7fa;
+$sc-color-wizard-confirmation-module: #eef7e4;
+$sc-color-social-sharing-flyout-content-social-facebook-icon: #3b5998;
+$sc-color-social-sharing-flyout-content-social-twitter-icon: #00b6f1;
+$sc-color-social-sharing-flyout-content-social-google-icon: #dd4b38;
+$sc-color-social-sharing-flyout-content-social-pinterest-icon: #bd071d;
+$sc-color-push-button-secondary-p: #404040;
+$sc-color-typeahead-plugin-dropdown-menu: #5b7f8c;
+$sc-color-focus: #66afe9;
+$sc-color-scroolbar: #323232;

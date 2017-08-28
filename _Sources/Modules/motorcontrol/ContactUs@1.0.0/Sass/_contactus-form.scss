@@ -1,0 +1,79 @@
+.contactus-container {
+    @extend .container;
+}
+
+.contactus-form {
+    margin: $sc-base-margin * 3;
+}
+
+.contactus-firstname,
+.contactus-lastname,
+.contactus-email,
+.contactus-subject,
+.contactus-message {
+    @extend .row;
+    label {
+        @extend .input-label;
+    }
+    input {
+        @extend .input-large;
+    }
+}
+
+.contactus-message textarea {
+    @extend .input-textarea;
+    display: block;
+    width: 100%;
+}
+
+.contactus-required {
+    @extend .input-required;
+}
+
+.contactus-button-container {
+    @extend .row;
+    margin-top: $sc-base-margin * 4;
+}
+
+.contactus-button-submit {
+    @extend .button-primary;
+    @extend .button-medium;
+}
+
+.contactus-form {
+    width: 33%;
+    position: relative;
+    left: 40px;
+    padding-bottom: 60px;
+}
+
+input#firstname,
+input#lastname {
+    margin-left: 20px;
+}
+
+input#email {
+    margin-left: 47px;
+}
+
+input#title {
+    margin-left: 34px;
+}
+
+textarea#incomingmessage {
+    margin-left: 27px;
+}
+
+button.contactus-button-submit {
+    position: relative;
+    left: 500px;
+    top: 40px;
+    background-color: $mcc-color-dark-blue;
+    color: white;
+    padding: 10px;
+}
+
+button.contactus-button-submit:hover {
+    background-color: $mcc-color-light-blue;
+    transition: .3s all background-color;
+}

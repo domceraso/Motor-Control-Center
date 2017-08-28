@@ -1,0 +1,9 @@
+{
+    "distroName": "SuiteCommerce Advanced Vinson Release",
+    "email": "domc@steelcitydev.com",
+    "account": "1047681",
+    "role": 3,
+    "hostname": "rest.netsuite.com",
+    "target_folder": "122212",
+    "email_default": "domc@steelcitydev.com"
+}

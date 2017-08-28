@@ -1,0 +1,3 @@
+define('store_locator_map.tpl', ['Handlebars','Handlebars.CompilerNameLookup'], function (Handlebars, compilerNameLookup){ var template = Handlebars.template({"compiler":[6,">= 2.0.0-beta.1"],"main":function(depth0,helpers,partials,data) {
+  return " <div class=\"store-locator-map-container\"><div id=\"map\" class=\"store-locator-map\" ></div></div>";
+},"useData":true}); template.Name = 'store_locator_map'; return template;});

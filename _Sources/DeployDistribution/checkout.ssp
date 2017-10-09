@@ -112,15 +112,15 @@
 		<% } %>
 
 		<!--[if !IE]><!-->
-			<link rel="stylesheet" href="<%= session.getAbsoluteUrl('checkout', 'css/checkout.css') %>?t=1503693074473">
+			<link rel="stylesheet" href="<%= session.getAbsoluteUrl('checkout', 'css/checkout.css') %>?t=1507495616124">
 		<!--<![endif]-->
 
 		<!--[if lte IE 9]>
-			<link rel="stylesheet" href="<%= session.getAbsoluteUrl('checkout', 'css_ie/checkout_4.css') %>?t=1503693074473">
-			<link rel="stylesheet" href="<%= session.getAbsoluteUrl('checkout', 'css_ie/checkout_3.css') %>?t=1503693074473">
-			<link rel="stylesheet" href="<%= session.getAbsoluteUrl('checkout', 'css_ie/checkout_2.css') %>?t=1503693074473">
-			<link rel="stylesheet" href="<%= session.getAbsoluteUrl('checkout', 'css_ie/checkout_1.css') %>?t=1503693074473">
-		  	<link rel="stylesheet" href="<%= session.getAbsoluteUrl('checkout', 'css_ie/checkout.css') %>?t=1503693074473">
+			<link rel="stylesheet" href="<%= session.getAbsoluteUrl('checkout', 'css_ie/checkout_4.css') %>?t=1507495616124">
+			<link rel="stylesheet" href="<%= session.getAbsoluteUrl('checkout', 'css_ie/checkout_3.css') %>?t=1507495616124">
+			<link rel="stylesheet" href="<%= session.getAbsoluteUrl('checkout', 'css_ie/checkout_2.css') %>?t=1507495616124">
+			<link rel="stylesheet" href="<%= session.getAbsoluteUrl('checkout', 'css_ie/checkout_1.css') %>?t=1507495616124">
+		  	<link rel="stylesheet" href="<%= session.getAbsoluteUrl('checkout', 'css_ie/checkout.css') %>?t=1507495616124">
 		<![endif]-->
 
 		<!--[if lt IE 9]>
@@ -152,7 +152,7 @@ var SC=window.SC={ENVIRONMENT:{jsEnvironment:typeof nsglobal==='undefined'?'brow
 
 		<script>
 			loadScript({
-				url: '<%= session.getAbsoluteUrl("checkout", "checkout.environment.ssp?" + environmentParameters.join("&") ) %>&t=1503693074473'
+				url: '<%= session.getAbsoluteUrl("checkout", "checkout.environment.ssp?" + environmentParameters.join("&") ) %>&t=1507495616124'
 			});
 		</script>
 
@@ -166,7 +166,7 @@ var SC=window.SC={ENVIRONMENT:{jsEnvironment:typeof nsglobal==='undefined'?'brow
 				window.location.hash = '<%= parameters.fragment %>';
 			}
 		</script>
-		<script src="<%= session.getAbsoluteUrl('checkout', 'javascript/checkout.js') %>?t=1503693074473"></script>
+		<script src="<%= session.getAbsoluteUrl('checkout', 'javascript/checkout.js') %>?t=1507495616124"></script>
 
 		<% if (SC.Configuration.cms.useCMS) { %>
 			<script src="/cms/2/assets/js/postframe.js"></script>

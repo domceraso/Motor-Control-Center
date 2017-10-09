@@ -77,3 +77,38 @@ button.contactus-button-submit:hover {
     background-color: $mcc-color-light-blue;
     transition: .3s all background-color;
 }
+
+form.contactus-form {
+    padding-bottom: 60px;
+}
+
+.contact-info a {
+    font-size: 15px;
+    color: $mcc-footer-social-font;
+    float: left;
+    line-height: 34px;
+    margin-right: 10px;
+}
+
+.contact-info span.circle-icon {
+    border: 1px solid $mcc-footer-social-border;
+    float: left;
+    -webkit-border-radius: 17px;
+    -moz-border-radius: 17px;
+    border-radius: 17px;
+    margin-right: 5px;
+    width: 35px;
+    text-align: center;
+    height: 34px;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.contact-info span.circle-icon i {
+    font-size: 20px;
+    color: $mcc-footer-social-circle-font;
+    padding: 7px 0;
+    float: none;
+    text-align: center;
+}

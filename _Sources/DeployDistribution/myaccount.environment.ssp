@@ -239,10 +239,10 @@ SC.ENVIRONMENT.isTouchEnabled = ('ontouchstart' in window) || window.DocumentTou
 document.documentElement.className = (SC.ENVIRONMENT.isTouchEnabled) ? "touch" : "no-touch";
 
 // Include Language Files
-document.write('<script src="<%= session.getAbsoluteUrl('checkout', 'languages/en.js') %>?t=1503693074868"><\\/script>');
+document.write('<script src="<%= session.getAbsoluteUrl('checkout', 'languages/en.js') %>?t=1507495616645"><\\/script>');
 
 <% if (Environment && Environment.currentLanguage && Environment.currentLanguage.locale && Environment.currentLanguage.locale !== 'en') { %>
-	document.write('<script src="<%= session.getAbsoluteUrl('checkout', 'languages/myaccount_' + Environment.currentLanguage.locale + '.js') %>?t=1503693074868"><\\/' + 'script' + '>');
+	document.write('<script src="<%= session.getAbsoluteUrl('checkout', 'languages/myaccount_' + Environment.currentLanguage.locale + '.js') %>?t=1507495616645"><\\/' + 'script' + '>');
 <% } %>
 
 <% if (Error) { %>

@@ -384,11 +384,12 @@
 	display:none;
 }
 .item-details-tab-title.active a {
+	background-color:$sc-color-theme-background-light;
+	color: $sc-color-theme-light;
 }
 .item-details-tab-content{
 	@extend .item-details-more-info-content;
-	background-color:$mcc-color-bg-light-grey;
-	border: 1px solid $mcc-color-bg-border-light-grey;
+	background-color:$sc-color-theme-background-light;
 	clear:both;
 
 	h2{
@@ -452,7 +453,7 @@
 	}
 }
 .item-details-tab-content-panel {
-	background-color: $mcc-color-bg-light-grey;
+	background-color: $sc-color-theme-background-light;
 	@media (min-width: $screen-sm-min){
 		overflow: hidden;
 		max-height: 400px;
@@ -474,7 +475,7 @@
 }
 .item-details-product-review-pusher {
 	@extend .push-button-secondary;
-	margin-bottom: 50px;
+	margin-bottom: $sc-base-margin * 3;
 
 	.item-details-product-review-pusher-rating {
 		display: inline-block;

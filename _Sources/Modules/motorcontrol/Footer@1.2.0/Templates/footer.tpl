@@ -127,7 +127,7 @@ $(document).ready(function() {
                <div class="footer-information pull-left">
                 <div class="footer-title">CONTACT US</div>
 				  <a href="#"><span class="circle-icon"><i class="fa fa-phone"></i></span>1(888)293-6004</a>
-                  <a href="mailto:roman@aaron-steel.com"><span class="circle-icon"><i class="fa fa-envelope"></i></span>roman@aaron-steel.com</a>
+                  <a href="mailto:sales@contactsandcoils.com"><span class="circle-icon"><i class="fa fa-envelope"></i></span>sales@contactsandcoils.com</a>
                   <a href="/address"><span class="circle-icon"><i class="fa fa-map-marker"></i></span>4019 Windgap Ave. Pittsburgh, PA. 15204</a>
               </div>
                <div class="footer-information pull-right" id="find-us-footer">
